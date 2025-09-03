@@ -1,0 +1,8 @@
+env/*
+*.pyc
+.vscode/settings.json
+start.sh
+*.service
+dev.env
+.venv
+volumes

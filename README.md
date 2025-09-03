@@ -9,6 +9,12 @@ You can perform the following operations
 - Retrieve Chunk
 - Delete Chunk
 
+## Clone the repository
+```bash
+git clone https://github.com/vsuhas9/vector-db-interface.git
+cd vector-db-interface
+```
+
 
 ## Run using UV Package Manager
 ```bash

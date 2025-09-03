@@ -9,22 +9,18 @@ You can perform the following operations
 - Retrieve Chunk
 - Delete Chunk
 
-## Clone the repository
+## Clone the and run the repository
 ```bash
 git clone https://github.com/vsuhas9/vector-db-interface.git
 cd vector-db-interface
-```
-
-
-## Run using UV Package Manager
-```bash
-uv sync --locked
-uv run main.py
-```
-
-## Run using Docker
-```bash
 docker compose up --build -d
 docker run -d --name ollama --network generic --restart always -v ollama:/root/.ollama -p 11434:11434 ollama/ollama
 docker exec -it ollama /bin/bash -c "ollama pull nomic-embed-text"
+```
+
+
+## Optinal: Run using UV Package Manager
+```bash
+uv sync --locked
+uv run main.py
 ```
